@@ -41,7 +41,7 @@ import translate_nv from 'novotranslator'
 const my_translate = (value) => {
     let result = translate_nv(value , "en");
     if(!result){
-        result = translateUsingSomeOthereStoreLikeRedux(value)
+        result = translateUsingSomeOtherStoreLikeRedux(value)
     }
     return result;
 }
