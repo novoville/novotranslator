@@ -1,0 +1,33 @@
+{
+  "name": "novotranslator",
+  "version": "1.0.0",
+  "description": "Package that can help devs with translations",
+  "main": "translationService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node actions/init.js && npx novotranslator"
+  },
+  "author": "Novoville",
+  "license": "MIT",
+  "bin": {
+    "novotranslator": "bin/translateTool.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novoville/novotranslator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novoville/novotranslator/issues"
+  },
+  "homepage": "https://github.com/novoville/novotranslator#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "mkdirp": "^1.0.4",
+    "node-xlsx": "^0.16.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
+  "exports": "./translationService.js"
+}
