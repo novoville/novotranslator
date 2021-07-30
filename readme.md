@@ -36,7 +36,7 @@ To do that simply create your own translation function that follows the logic yo
 Example :
 
 ```js
-import translate_nv from 'novoville_translate_tool'
+import translate_nv from 'novotranslator'
 
 const my_translate = (value) => {
     let result = translate_nv(value , "en");
