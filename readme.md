@@ -97,6 +97,6 @@ There will be one file per language to note the duplicates.
 
 ### Find Unused Keys
 
-`npx novotranlator -u`
+`npx novotranslator -u`
 
 Check for entries in your spreadsheet that are not used in your codebase.
